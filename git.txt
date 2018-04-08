@@ -1,0 +1,28 @@
+*** Git ***
+
+git init
+把当前的目录变成git可以管理的仓库
+
+git add ***
+把文件添加到仓库中
+
+git commit -m "*****"
+把文件提交到仓库中 -m 表示对当前提交的描述
+
+git status
+查看仓库当前的状态 对比文件差异
+
+git diff
+和仓库作对比 看看那些地方做了修改
+
+git log
+查看最近到最远的提交日志
+
+git reset --hard HEAD^
+版本回退  HEAD表示当前版本 HEAD^ 表示上一个版本 HEAD~100 表示前100个版本
+
+git reset --hard 3628164
+根据commit id 回退到指定版本 '3628164'
+
+git reflog
+显示每一次命令  可用来'版本回退出错时，在切换到正确的版本'
